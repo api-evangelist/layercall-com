@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-LayerCall provides a trust intelligence API that scores IPs, emails, phones, domains, and devices for fraud risk in a single call. It offers free and paid tiers, detecting VPNs, proxies, Tor, bots, and device fingerprints, helping prevent fake signups and account takeover. The service is RESTful, supports any platform, and includes detailed risk scores from 0 to 100.
+LayerCall provides a trust intelligence API that scores IP addresses, email addresses, phone numbers, domains, and devices in a single call, delivering a risk score from 0 to 100. It detects VPNs, proxies, Tor exit nodes, bots, and device fingerprints, helping developers prevent fraud, fake sign‑ups, and account takeovers. The service offers a free tier with 1,000 lookups per month and paid plans starting at $49, with no credit‑card required for the free tier.
 
-**Areas:** Company · FraudDetection · TrustIntelligence · API · Security
+**Areas:** FraudDetection · RiskScoring · API · Security · TrustIntelligence
 
 ## layercall-com on APIs.io
 
@@ -109,6 +109,12 @@ Linked-data contexts for the provider's vocabulary.
 
 - [Layercall Com Context](https://apis.io/jsonld/layercall-com/layercall-com-context/)
 
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Layercall Com Openapi Overlay](https://apis.io/overlays/layercall-com/layercall-com-openapi-overlay/)
+
 #### Governance rules (1)
 
 Spectral rulesets for the provider's contracts.
@@ -123,20 +129,35 @@ Authentication, trust centre, and vulnerability disclosure.
 - [Layercall Com Domain Security](https://apis.io/security/layercall-com/layercall-com-domain-security/)
 - [Layercall Com Vulnerability Disclosure](https://apis.io/security/layercall-com/layercall-com-vulnerability-disclosure/)
 
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Layercall Com Scopes](https://apis.io/scopes/layercall-com/layercall-com-scopes/)
+
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
 - [Layercall Com Plans Pricing](https://apis.io/plans/layercall-com/layercall-com-plans-pricing/)
 
+#### Rate limits (1)
+
+Published request limits.
+
+- [Layercall Com Rate Limits](https://apis.io/rate-limits/layercall-com/layercall-com-rate-limits/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Website](https://www.layercall.com/)
+- [Website](https://layercall.com/)
 - [Documentation](https://www.layercall.com/docs)
+- [Getting started](https://www.layercall.com/docs)
+- [API reference](https://www.layercall.com/docs/reference)
 - [Pricing](https://www.layercall.com/pricing)
 - [Sign up](https://www.layercall.com/demo/signup)
+- [Support](https://www.layercall.com/contact)
 - [Blog](https://www.layercall.com/blog)
 - [Security](https://www.layercall.com/terms)
 - [Terms of service](https://www.layercall.com/terms)
@@ -146,18 +167,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 59.9** — strong · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 72.7** — exemplar · rubric 0.25.0 · scored 2026-10-30
 
 | Facet | Score |
 |---|---|
 | Discoverability | 65.0 |
 | Contract quality | 62.5 |
 | Contract governance | 79.1 |
-| Operational transparency | 39.5 |
-| Developer ergonomics | 31.0 |
+| Operational transparency | 58.4 |
+| Developer ergonomics | 75.5 |
 | Access clarity | 73.2 |
 
-**Agent readiness 45.9** — agent-ready (gated down from agent-native)
+**Agent readiness 49.1** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -171,7 +192,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | OpenAPI Examples | verified |
 | Rate Limit Signal | verified |
 | Event Surface Described | unknown |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
@@ -183,7 +204,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
 
-**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/layercall-com/](https://apis.io/providers/layercall-com/).
 
